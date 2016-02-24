@@ -1,10 +1,10 @@
-rhome=/app/vendor/R/lib64/R
+rhome=/app/vendor/R/lib/R
 rlibdir=${rhome}/lib
-rincludedir=/app/vendor/R/lib64/R/include
+rincludedir=/app/vendor/R/lib/R/include
 
 Name: libR
 Description: R as a library
-Version: 2.15.1
+Version: 3.2.3
 Libs: -L${rlibdir} -lR
 Cflags: -I${rincludedir} -I${rincludedir}
 Libs.private:
